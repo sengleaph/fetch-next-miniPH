@@ -5,7 +5,7 @@ import React from "react";
 export default function Footer() {
   const pathname = usePathname();
 
-  if (pathname.includes("dashboard")) return null;
+  if (pathname.includes("products")) return null;
 
   return (
     <footer

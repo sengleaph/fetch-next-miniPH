@@ -6,7 +6,7 @@ import React from "react";
 export default function Card({ title, image, price, id }) {
   const router = useRouter();
   return (
-    <div className="shrink-0 my-4 w-full max-w-sm border border-gray-100 rounded-lg shadow dark:bg-violet-800 dark:border-violet-50"
+    <div className="shrink-0 my-4 w-full max-w-sm border border-gray-100 rounded-lg shadow dark:bg-violet-950 dark:border-violet-50"
     >
       <Link href={`/products/${id}`}>
         <img

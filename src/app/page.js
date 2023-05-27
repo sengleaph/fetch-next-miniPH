@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
 export const metadata = {
-  title: "Home Page",
+  title: "mine project",
   description: "This is the home page",
 };
 
@@ -8,7 +8,7 @@ export const metadata = {
 export async function getData() {
   // no-store to avoid cache
   const res = await fetch(
-    "https://api.escuelajs.co/api/v1/products", {cache: "no-store"}
+    "https://api.escuelajs.co/api/v1/products?limit=20&offset=0"
   );
   const data = await res.json();
   return data;
