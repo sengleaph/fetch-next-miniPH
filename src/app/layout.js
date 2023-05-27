@@ -1,10 +1,12 @@
+/* eslint-disable react/jsx-no-undef */
 import NavBar from "@/components/NavBar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
-import Script from "next/script";
 import { Suspense } from "react"; // suspense is used to lazy load components
 import Loading from "./loading";
+
+
 
 
 const inter = Inter({ subsets: ["latin"] });

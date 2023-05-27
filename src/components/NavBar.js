@@ -24,12 +24,6 @@ export default function NavBar() {
             type="button"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
-            LOG IN 
-          </button>
-          <button
-            type="button"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
             SIGN UP
           </button>
           <button
@@ -88,17 +82,17 @@ export default function NavBar() {
             </li>
             <li>
               <Link
-                href="/dashboard"
+                href="/category"
                 className={
-                  pathname === "/dashboard"
+                  pathname === "/category"
                     ? "block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                     : "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 }
               >
-                Dashboard
+                Category
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/dashboard/settings"
                 className={
@@ -109,7 +103,7 @@ export default function NavBar() {
               >
                 Settings
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
