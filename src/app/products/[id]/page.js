@@ -35,7 +35,7 @@ export default async function ProductData({ params }) {
   return (
     <>
 
-      <div class="bg-gradient-to-r from-pink-800 to-indigo-700 md:container mx-auto max-w-sm px-8 my-20">
+      <div class="bg-gradient-to-r from-violet-900 to-indigo-300 md:container mx-auto max-w-sm px-8 my-20">
         <div class="lg:col-gap-9 xl:col-gap-16 mt-8 grid grid-cols-1 gap-12 lg:mt-12 lg:grid-cols-5 lg:gap-16">
           <div class="lg:col-span-3 lg:row-end-1">
             <div class="lg:flex lg:items-start">
@@ -119,7 +119,7 @@ export default async function ProductData({ params }) {
                   ></path>
                 </svg>
               </div>
-              <p class="ml-2 text-sm font-medium text-gray-500">
+              <p class="ml-2 text-sm font-medium text-white-500">
                 1,209 Reviews
               </p>
             </div>

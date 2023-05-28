@@ -8,7 +8,7 @@ export const metadata = {
 export async function getData() {
   // no-store to avoid cache
   const res = await fetch(
-    "https://api.escuelajs.co/api/v1/products?limit=20&offset=0"
+    "https://api.escuelajs.co/api/v1/products?limit=21&offset=0"
   );
   const data = await res.json();
   return data;
