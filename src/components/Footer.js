@@ -6,6 +6,9 @@ export default function Footer() {
   const pathname = usePathname();
 
   if (pathname.includes("products")) return null;
+  else if (pathname.includes("category")) return null;
+  else if (pathname.includes("user")) return null; 
+  else if (pathname.includes("login")) return null; 
 
   return (
     <footer
